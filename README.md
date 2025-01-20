@@ -29,7 +29,7 @@ Database: MongoDB / PostgreSQL
 Frontend: Streamlit / React.js (Optional)
 
 📂 Project Structure
-
+```
 resume_screener/
 ├── backend/
 │   ├── app.py (Flask API)
@@ -46,34 +46,42 @@ resume_screener/
 │   ├── job_descriptions/ (Example JDs)
 │
 └── README.md
+```
 
 📥 Installation & Setup
 
 Clone the Repository
 
---bash
+```bash
 git clone https://github.com/vtg2k/resume_scanner.git
 cd resume-screener
+```
 
 Set Up Virtual Environment
 
+```bash
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate  # Windows
-
+```
 Install Dependencies
 
+```bash
 pip install -r requirements.txt
-
+```
 Run the Flask API
 
+```bash
 cd backend
 python app.py
+```
 
 Launch the Frontend (Optional)
 
+```bash
 cd frontend
 streamlit run dashboard.py
+```
 
 🔥 Usage
 
